@@ -282,12 +282,6 @@ cite img{
     background-color: darkgreen;
     color: #fff;
     margin-bottom: 20px;
-    
-        
-        
-    
-    
-    
 }
 
 .pack span{
@@ -308,4 +302,20 @@ cite img{
     border-radius: 10px;
 
 }
+/* PACKS
+==========================*/
+
+.contact-form{
+    margin-bottom: 30px;
+}
+.contact-message{
+    width: 100%;
+}
+.btn-contact{
+    background-color: forestgreen;
+    color: skyblue;
+}
+
+
+
 
