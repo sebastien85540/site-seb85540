@@ -1,0 +1,308 @@
+/*documents information 
+    - document: thé thèmes
+    - version: 1.0.0
+    - auteur: seb
+*/
+/* COLORS
+    - defauts body text #eee
+    - h1 #eee
+    - h2 #000
+    - h3
+    - h4
+    - icons #5ee077
+    -button
+    - button: hover
+    - border
+*/
+
+/* FONTS
+    - default lato
+    - subtitle
+
+*/
+/* CSS DIRECTORY
+    1. =GLOBAL
+    2. =HEADER
+    3. =PRODUITS
+*/
+/* GLOBAL
+===================================================*/
+html{
+    background-color: #fff;
+}
+
+h1, h2, h3, h4{
+     font-family: 'lato', 'Arial', sans-serif;
+        text-transform: uppercase;
+
+    
+}
+h1{
+    color: #eee;
+    letter-spacing: -1px;
+    font-weight: 300;
+    word-spacing: 8px;
+}
+h2{
+    color: #333333;
+    font-size: 250%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+h2:after{
+    display: block;
+    height: 2px;
+    background-color: green;
+    width: 100px;
+    content: "";
+    margin: 0 auto;
+    margin-top: 10px;
+}
+h3{
+   font-size: 160%; 
+}
+
+p{
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 24px;
+}
+section{
+    padding: 30px 0 60px 0;
+}
+
+/* HEADER
+==========================*/
+header{
+    background-image: linear-gradient( rgba(0,242,96,0.4), rgba(7,117,230,0.6)),url(../images/header.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    
+}
+.home-title{
+    position: absolute;
+    top: 30%;
+    
+}
+.home-title h1{
+  font-size: 340%;
+    color: #fff;
+}
+.home-title h1 span{
+    font-weight: 700;
+    
+    
+}
+.home-title p {
+    color: #fff;
+    
+}
+/* BUTTON */
+
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    transition: background-color 1s, color 1s, border 1s;
+}
+
+.btn-full{
+    background-color: azure;
+    color: rgba(211, 46, 232, 0.43);
+    border-radius: 10px;
+    margin-right: 15px;
+    
+}
+.btn-ghost{
+    border: 1px #fff solid;
+    border-radius: 10px;
+    color: white;
+}
+.btn-full:hover{
+    background-color: #5ee077;
+    color: #fff;
+    
+}
+.btn-ghost:hover{
+    background-color: #5ee077;
+    border: 1px #5ee077 solid;
+    color: #fff;
+}
+
+/* PRODUITS
+==========================*/
+
+.produits-img{
+    max-width: 100%;
+    height: auto;
+}
+.produits-icons{
+    font-size: 34px;
+    color: #5ee077;
+    transition: all 1s;
+}
+.produits-plus{
+    margin: 20px 0;
+}
+.produits-plus:hover .produits-icons{
+    color: #1ea0d0;
+    transform: translate(20px);
+}
+/* FAMILLES THES
+==========================*/
+
+.famille-the{
+    background-color: aqua;
+}
+.famille-details{
+    background-color: #fff;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+.famille-details img{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    
+}
+.famille-details h4{
+    text-align: center;
+}
+
+/* GALERIE PHOTOS
+==========================*/
+
+.galeries-img{
+    display: block;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    margin-bottom: 30px;
+}
+.galeries-title{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+.galeries-title h4{
+    color: #fff;
+}
+
+/* CLIENTS
+==========================*/
+
+.clients{
+    background-image: linear-gradient( rgba(0,242,96,0.4), rgba(7,117,230,0.6)), url(../images/the-paysage.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.clients h2{
+    color: #fff;
+}
+.clients h2:after{
+    background-color: #fff;
+}
+blockquote{
+    padding: 5px;
+    font-style: italic;
+    line-height: 130%;
+    color: #fff;
+    font-family: 'sanchez', serif;
+   
+    
+    
+}
+blockquote:before{
+    content:"\201C";
+    font-size: 800%;
+    position: absolute;
+    top: 30px;
+    left: 5px;
+    color: rgba(255,255,255,0.6);
+}
+cite{
+    font-size: 90%;
+    display: block;
+    margin-top: 20px;
+ }
+cite img{
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    
+}
+
+
+/* PACKS
+==========================*/
+
+.packs{
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+    border-radius: 10px;
+    
+}
+.pack h3{
+    color: chartreuse;
+    font-weight: 400;
+    
+}
+.pack h4{
+    font-size: 200%;
+    color: darkgreen;
+}
+.pack-title{
+    padding: 10px 10px 0 10px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.pack-content ul{
+    list-style: none;
+    padding: 20px;
+    font-weight: 300;
+    line-height: 35px;
+    
+}
+
+.pack-content ul li i{
+    font-size: 90%;
+    margin-right: 10px;
+}
+
+.pack-signup{
+    text-align: center;
+}
+.btn-pack{
+    background-color: darkgreen;
+    color: #fff;
+    margin-bottom: 20px;
+    
+        
+        
+}
+
+.pack span{
+    font-weight: 100;
+    font-size: 40%;
+    position: relative;
+    top: -15px;
+    left: 2px;
+    margin-left: 5px;
+}
+
+.pack-prenium{
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+.pack-elite{
+    background-color: rgba(255, 0, 0, 0.4);
+    border-radius: 10px;
+
+}
+
