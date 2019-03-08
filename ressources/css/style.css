@@ -81,6 +81,9 @@ header{
     background-size: cover;
     
 }
+.mon-bg{
+    background-color: rgb(181, 123, 239,0.8);
+}
 .home-title{
     position: absolute;
     top: 30%;
@@ -316,6 +319,18 @@ cite img{
     color: skyblue;
 }
 
+/* FOOTER
+==========================*/
+footer{
+    background-color: #3b3434;
+    color: #fff;
+    text-align: center;
+    height: 60px;
+    padding: 20px;
+}
+.copyright a{
+    color: #fff;
+}
 
 
 

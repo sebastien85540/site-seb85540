@@ -20,6 +20,27 @@
     </head>
     <body>
         <header>
+            <nav class="navbar navbar-expand-md mon-bg navbar-light fixed-top">
+                <div class="container">
+                    <a class="navbar-brand" href="/">Boutique de thé</a>
+                    
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mon-menu" aria-controls="mon-menu" aria-label="menu pour mobile">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="mon-menu"> 
+                        <div class="navbar-nav ml-auto">
+                            <a class="nav-items nav-link" href="/">Qui sommes nous</a>
+                            <a class="nav-items nav-link" href="#famille-the">Nos produits</a>
+                            <a class="nav-items nav-link" href="#photo">Nos photos</a>
+                            <a class="nav-items nav-link" href="#packs">Nos packs</a>
+                            <a class="nav-items nav-link" href="#contact">Contact</a>
+                    
+                        </div>
+                    </div>
+                </div>
+            
+            </nav>
         <div class="container">
             <div class="row">
                 <div class="col-md-12 home-title">
@@ -37,7 +58,7 @@
         </header>
         <!-- NOS PRODUITS
 ==========================   -->
-        <section>
+        <section class="famille-the" id="famille-the">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -144,7 +165,7 @@
         
    <!-- GALLERIE PHOTO
 ==========================   -->
-        <section>
+        <section class="photo" id="photo">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -200,7 +221,7 @@
            <!--AVIS CLIENTS ========
 ==================================== -->
         
-        <section class="clients">
+        <section class="clients" id="clients">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -239,7 +260,7 @@
                <!--TABLEAU DES PACKS ========
 ==================================== -->    
         
-      <section>
+      <section class="packs" id="packs">
           <div class="container">
               <div class="row">
                  <div class="col-md-12">                                   
@@ -324,9 +345,9 @@
         
       </section> 
              
-          <!-- NOS PRODUITS
+          <!-- CONTACT
 ==========================   -->
-        <section>
+        <section class="contact" id="contact">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -358,7 +379,7 @@
                             <div class="row">
                              <!-- IDENTITE CLIENT -->                                          
                                 <div class="col-md-6">
-                                    <div class="form">
+                                    <div class="contact-form">
                                        <label>Nom :</label>
                                        <input type="text"id="name"/>                                  
                                     </div>
@@ -367,8 +388,8 @@
                                                     
                                <div class="col-md-6">
                                    <div class="contact-form">
-                                        <label>Email :</label>
-                                        <input type="email" id="email" placeholder="Ajoutez votre email"/>                                   
+                                        <label>Email:</label>
+                                        <input type="email" id="email" placeholder="Ajoutez votre email"/>
                                    </div>
                                </div>
                             
@@ -415,15 +436,23 @@
                         <div class="map">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d298422.30256527674!2d1.918225441650061!3d45.98032076709054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48042f62ed9d2469%3A0x7149f0b3e1522825!2sLa+Cabane+%C3%A0+Th%C3%A9+-+Vente+en+ligne+de+th%C3%A9!5e0!3m2!1sfr!2sfr!4v1551968004408" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
-                    
                     </div>                   
                 </div>
-
-                
+            </div>
+        </section>
+        <footer>
+            <div class="copyright">
+                <p>Site de thé - 2019. <a href="/">Mentions légales</a></p>
             
             </div>
         
-        </section>
+        </footer>
+                  <!-- SCRIPTS
+==========================   -->
+        
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
         
         
     </body>
