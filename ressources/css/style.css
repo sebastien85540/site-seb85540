@@ -176,9 +176,7 @@ header{
 .famille-details h4{
     text-align: center;
 }
-.pack-title{
-    
-}
+
 
 /* GALERIE PHOTOS
 ==========================*/
@@ -251,10 +249,10 @@ cite img{
 /* PACKS
 ==========================*/
 
-.packs{
-    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+.pack{
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
     border-radius: 10px;
-    
+    border-bottom: 20px;
 }
 .pack h3{
     color: chartreuse;
@@ -268,7 +266,6 @@ cite img{
 .pack-title{
     padding: 10px 10px 0 10px;
     border-bottom: 1px solid #e2e2e2;
-    margin-bottom: 20px;
 }
 
 .pack-content ul{
